@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTATO</title>
+  <link rel="stylesheet" href="./css/contato.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+	</style>
+</head>
+
+<header>
+	<figure>
+		<a href="./index.html">
+			<img class="logo-header" src="./images/logo-header.png"
+				alt="Logo do site: um círculo com um cifrão no centro e escrito dindin ao lado">
+		</a>
+	</figure>
+
+	<nav class="pages">
+		<a class="cursos" href="./cursos.html" target="_self">CURSOS</a>
+		<a class="blog" href="./blog.html" target="_self">BLOG</a>
+		<a class="contato" href="./contato.html" target="_self">CONTATO</a>
+	</nav>
+</header>
+
+<body>
+  <main>
+		<section>
+			<div id="contato" class="content">
+				<h2>Contato</h2>
+				<form class="form" name="submit" onsubmit="alert('Enviado')" method="post" target="_self" action="#">
+					<label></label><input class="nome" type="text" name="nome" autofocus required placeholder="    nome">
+					<label></label><input class="email" type="email" name="email" required placeholder="    email">
+					<label></label><textarea rows="5" cols="2" class="msg" type="text" name="mensagem" required placeholder="  mensagem"></textarea>
+				</form>
+				<button class="btn-contato" type="submit">entrar</button>
+			</div>
+			<figure>
+					<img class="ilustra-contato" src="./images/ilustra-contato.png" alt="Um homem e uma mulher conversando">
+			</figure>
+		</section>
+  </main>
+</body>
+
+<footer>
+	<figure>
+		<a href="./index.html">
+			<img class="logo-footer" src="./images/logo-footer.png"
+				alt="Logo do site: um círculo com um cifrão no centro e escrito dindin ao lado">
+		</a>
+	</figure>
+	<div class="footer">
+		<ul>
+			<li><a class="rodape" href="./cursos.html">cursos</a></li>
+			<li><a class="rodape" href="./blog.html">blog</a></li>
+			<li><a class="rodape" href="./contato.html">contato</a></li>
+		</ul>
+		<div class="links">
+			<a class="buttom" type="submit">quero ser prof</a>
+			<a class="buttom2" type="submit">aqui tem outro link</a>
+		</div>
+	</div>
+</footer>
+
+</html>

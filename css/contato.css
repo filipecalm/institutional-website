@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.973);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* HEADER */
+
+.logo-header {
+  position: absolute;
+  left: 200px;
+  top: 20px;
+}
+
+header {
+  position: absolute;
+  width: 100vw;
+  height: 117px;
+  left: 0px;
+  top: 0px;
+  background: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+
+.cursos {
+  position: absolute;
+  width: 80px;
+  height: 23px;
+  right: 400px;
+  top: 47px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+}
+
+.blog {
+  position: absolute;
+  width: 55px;
+  height: 23px;
+  right: 292px;
+  top: 47px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+}
+
+.contato {
+  position: absolute;
+  width: 95px;
+  height: 23px;
+  right: 150px;
+  top: 47px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* CONTATO */
+
+.ilustra-contato {
+  width: 222px;
+  height: 222px;
+}
+
+h2 {
+  height: 46px;
+  width: 154px;
+  font-family: Ubuntu;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 64, 129, 1);
+}
+
+form {
+  display: grid;
+  margin-top: 40px;
+}
+
+.nome,
+.email,
+.assunto {
+  width: 493px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+#contato {
+  margin-top: 200px;
+  margin-left: 80px;
+  height: 600px;
+  text-shadow: white 0px 0px 1px;
+  font-size: 16px;
+}
+
+.btn-contato {
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 10px;
+  width: 6rem;
+  height: 34;
+  color: #FDFDFD;
+  background-color: #FF4081;
+  border-radius: 62px;
+}
+
+.btn-contato {
+  display: grid;
+  background: #FF4081;
+  color: #FFFFFF;
+  width: 8.9rem;
+  height: 2.7rem;
+  margin-top: 15px;
+  border: 3px solid #FFFFFF;
+  border-radius: 62px;
+  font-size: 20px;
+  align-items: center;
+  justify-items: center;
+  bottom: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 9.5rem;
+}
+
+.content {
+  background-color: white;
+  min-height: 600px;
+  padding: 20px;
+}
+
+.msg {
+  height: 193px;
+  width: 493px;
+  left: 3px;
+  top: 183px;
+  border-radius: 7px;
+}
+
+/* FOOTER */
+
+footer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 100vw;
+  bottom: 0px;
+  background: #2E948A;
+}
+
+.logo-footer {
+  margin-left: 200px;
+  margin-top: 15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+ul {
+  list-style: none;
+  margin-left: 20%;
+}
+
+.rodape {
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 71px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttom,
+.buttom2 {
+  display: grid;
+  color: #FFFFFF;
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  border: 3px solid #FFFFFF;
+  border-radius: 62px;
+  font-size: 22px;
+  align-items: center;
+  justify-items: center;
+  bottom: 15px;
+  color: #FFFFFF;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width:700px) {
+  html {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  body {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  figure {
+    max-width: 250px;
+  }
+
+  .logo-footer,
+  .logo-header {
+    left: 20px;
+    top: 10px;
+    width: 250px;
+  }
+
+  header {
+    width: 390px;
+  }
+
+  .courses {
+    flex-direction: column;
+  }
+
+  .logo-header {
+    bottom: 10px;
+    left: 10px;
+    width: 250px;
+  }
+
+  .logo-footer {
+    display: none;
+  }
+
+  .rodape,
+  .rodape2,
+  .rodape3 {
+    position: absolute;
+    right: 250px;
+  }
+
+  .rodape {
+    top: 30px;
+  }
+
+  .rodape2 {
+    top: 52px;
+  }
+
+  .pages {
+    position: relative;
+    right: 250px;
+  }
+
+  .cursos,
+  .blog,
+  .contato {
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 14px;
+  }
+
+  .cursos {
+    left: 20px;
+  }
+
+  .blog {
+    left: 90px;
+  }
+
+  .contato {
+    left: 140px;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100em;
+  }
+
+  .buttom,
+  .buttom2 {
+    font-size: 14px;
+    height: 24px;
+    width: 140px;
+
+  }
+
+  .buttom {
+    position: absolute;
+    left: 350px;
+    right: 70px;
+    bottom: 70px;
+  }
+
+  .buttom2 {
+    position: relative;
+    left: 180px;
+    top: 1px;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 200vw;
+    justify-content: space-between;
+    position: relative;
+    top: 122px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ilustra-contato {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    width: 222px;
+    height: 222px;
+  }
+
+
+  .nome,
+  .email {
+    width: 293px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+  }
+
+  #contato {
+    margin-top: 140px;
+    height: 600px;
+    text-shadow: white 0px 0px 1px;
+    font-size: 16px;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  .msg {
+    height: 150px;
+    width: 293px;
+  }
+
+}

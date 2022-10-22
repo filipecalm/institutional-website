@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.973);
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* dindin */
+.logo-header {
+  position: absolute;
+}
+
+/* HEADER */
+
+header {
+  position: absolute;
+  width: 100vw;
+  height: 117px;
+  left: 0px;
+  top: 0px;
+  background: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* CURSOS */
+
+.cursos {
+  position: absolute;
+  width: 80px;
+  height: 23px;
+  right: 400px;
+  top: 47px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #FDFDFD;
+}
+
+
+/* BLOG */
+.blog {
+  position: absolute;
+  width: 55px;
+  height: 23px;
+  right: 292px;
+  top: 47px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: #FDFDFD;
+}
+
+/* CONTATO */
+.contato {
+  position: absolute;
+  width: 95px;
+  height: 23px;
+  right: 150px;
+  top: 47px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: #FDFDFD;
+}
+
+
+h1 {
+  position: absolute;
+  width: 460px;
+  height: 216px;
+  left: 206px;
+  top: 242px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  color: #FF4081;
+}
+
+#contato {
+  margin-top: 200px;
+  margin-left: 80px;
+  height: 600px;
+  text-shadow: white 0px 0px 1px;
+  font-size: 16px;
+}
+
+.content {
+  background-color: white;
+  min-height: 600px;
+  padding: 20px;
+  left: 300px;
+}
+
+.msg {
+  min-width: 10rem;
+  min-height: 3rem;
+  max-width: 20rem;
+  max-height: 10rem;
+  margin-bottom: 1px;
+}
+
+/* FOOTER */
+
+.logo-footer {
+  position: absolute;
+  top: 30px;
+}
+
+footer {
+  position: fixed;
+  width: 100vw;
+  height: 16%;
+  bottom: 0px;
+  background: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.rodape {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 71px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  left: 50vw;
+  top: 60px;
+  cursor: pointer;
+}
+
+.buttom {
+  position: relative;
+  display: grid;
+  color: #FFFFFF;
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  border: 3px solid #FFFFFF;
+  border-radius: 20px;
+  font-size: 20px;
+  align-items: center;
+  justify-items: center;
+  left: 80vw;
+  bottom: 15px;
+}
+
+.curso1 {
+  position: absolute;
+  width: 1157px;
+  height: 381px;
+  left: 112px;
+  top: 385px;
+}
+
+.image4 {
+  position: absolute;
+  left: 8.89%;
+  right: 64.72%;
+  top: 62.61%;
+  bottom: 16.91%;
+  height: 498px;
+  width: 380px;
+  left: 128px;
+  top: 1522px;
+  border-radius: 0px;
+}
+
+.image3 {
+  position: absolute;
+  left: 7.78%;
+  right: 65.83%;
+  top: 15.84%;
+  bottom: 68.49%;
+  height: 381px;
+  width: 380px;
+  left: 112px;
+  top: 385px;
+  border-radius: 0px;
+}
+
+.image2 {
+  position: absolute;
+  left: 7.78%;
+  right: 65.83%;
+  top: 38.91%;
+  bottom: 45.25%;
+  height: 385px;
+  width: 380px;
+  left: 112px;
+  top: 946px;
+  border-radius: 0px;
+}
+
+/* Rectangle 12 */
+.rectangle {
+  position: absolute;
+  width: 233px;
+  height: 51px;
+  left: 545px;
+  top: 641px;
+  background: #419488;
+  border-radius: 62px;
+}
+
+/* INICIO Página curso.html */
+
+.titulo_investimento_iniciante {
+  position: absolute;
+  width: 512px;
+  height: 126px;
+  left: 202px;
+  top: 210px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 63px;
+  color: #FF4081;
+}
+
+.texto_investimento_iniciante {
+  position: absolute;
+  width: 461px;
+  height: 186px;
+  left: 202px;
+  top: 358px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  color: #000000;
+}
+
+.image_curso1 {
+  position: absolute;
+  left: 52.15%;
+  right: 21.46%;
+  top: 9.38%;
+  bottom: 72.49%;
+
+  width: 380px;
+  height: 381px;
+  top: 197px;
+  left: 751px;
+  
+}
+
+.bg_cursos {
+  position: absolute;
+  width: 1440px;
+  height: 1235px;
+  left: 0px;
+  top: 659px;
+  background: #f7f7f7;
+}
+
+div.retangulo {
+  position: absolute;
+  width: 462px;
+  height: 261px;
+  left: 213px;
+  top: 734px;
+  border: 3px solid #8e8e8e;
+}
+
+div.retangulo1 {
+  position: absolute;
+  width: 462px;
+  height: 261px;
+  left: 212px;
+  top: 1146px;
+  border: 3px solid #8e8e8e;
+}
+
+div.retangulo2 {
+  position: absolute;
+  width: 462px;
+  height: 261px;
+  left: 212px;
+  top: 1558px;
+  border: 3px solid #8e8e8e;
+}
+
+.titulo_Aula1 {
+  position: absolute;
+  width: 512px;
+  height: 40px;
+  left: 751px;
+  top: 734px;
+  display: flex;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #FF4081;
+}
+
+.texto_Aula1 {
+  position: absolute;
+  width: 501px;
+  height: 195px;
+  left: 751px;
+  top: 800px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.titulo_Aula2 {
+  position: absolute;
+  width: 106px;
+  height: 40px;
+  left: 750px;
+  top: 1146px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #FF4081;
+}
+
+.texto_Aula2 {
+  position: absolute;
+  width: 501px;
+  height: 195px;
+  left: 750px;
+  top: 1212px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.titulo_Aula3 {
+  position: absolute;
+  width: 512px;
+  height: 40px;
+  left: 750px;
+  top: 1558px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #FF4081;
+}
+
+.texto_Aula3 {
+  position: absolute;
+  width: 501px;
+  height: 195px;
+  left: 750px;
+  top: 1624px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/* LINHAS */
+
+.linha1_curso {
+  position: absolute;
+  width: 1244px;
+  height: 3px;
+  left: 98px;
+  top: 1068px;
+  background: #C4C4C4;
+}
+
+.linha2_curso {
+  position: absolute;
+  width: 1244px;
+  height: 3px;
+  left: 98px;
+  top: 1480px;
+  background: #C4C4C4;
+}
+
+/* INICIO iFrame dos vídeos */
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/* FINAL iFrame dos vídeos */
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width:700px) {}
+
+@media screen and (min-width:1000px) {}

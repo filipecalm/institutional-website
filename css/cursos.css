@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.973);
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* dindin */
+.logo-header {
+    position: absolute;
+}
+
+/* HEADER */
+
+header {
+    position: absolute;
+    width: 100vw;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* CURSOS */
+.cursos {
+    position: absolute;
+    width: 80px;
+    height: 23px;
+    right: 400px;
+    top: 47px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+/* BLOG */
+.blog {
+    position: absolute;
+    width: 55px;
+    height: 23px;
+    right: 292px;
+    top: 47px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+/* CONTATO */
+.contato {
+    position: absolute;
+    width: 95px;
+    height: 23px;
+    right: 150px;
+    top: 47px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+h3 {
+    position: absolute;
+    width: 263px;
+    height: 69px;
+    left: 82px;
+    top: 198px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+
+    color: #FF4081;
+}
+
+h4 {
+    /* Investimento para iniciantes */
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 406px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+h6 {
+    position: absolute;
+    width: 317px;
+    height: 23px;
+    left: 82px;
+    top: 267px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #555
+}
+
+#contato {
+    margin-top: 200px;
+    margin-left: 80px;
+    height: 600px;
+    text-shadow: white 0px 0px 1px;
+    font-size: 16px;
+}
+
+.ilustra-contato {
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
+
+.btn-contato {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    color: #FDFDFD;
+    background-color: #FF4081;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.content {
+    background-color: white;
+    min-height: 600px;
+    padding: 20px;
+    left: 300px;
+}
+
+.msg {
+    min-width: 10rem;
+    min-height: 3rem;
+    max-width: 20rem;
+    max-height: 10rem;
+    margin-bottom: 1px;
+}
+
+/* FOOTER */
+
+.logo-footer {
+    position: absolute;
+    top: 30px;
+}
+
+footer {
+    position: fixed;
+    width: 100vw;
+    height: 16%;
+    bottom: 0px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.rodape {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 71px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    left: 50vw;
+    top: 60px;
+    cursor: pointer;
+}
+
+.buttom {
+    position: relative;
+    display: grid;
+    color: #FFFFFF;
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    font-size: 20px;
+    align-items: center;
+    justify-items: center;
+    left: 80vw;
+    bottom: 15px;
+}
+
+.curso1 {
+    position: absolute;
+    width: 1157px;
+    height: 381px;
+    left: 112px;
+    top: 385px;
+}
+
+.image4 {
+    position: absolute;
+    left: 8.89%;
+    right: 64.72%;
+    top: 62.61%;
+    bottom: 16.91%;
+    height: 498px;
+    width: 380px;
+    left: 128px;
+    top: 1522px;
+    border-radius: 0px;
+}
+
+.image3 {
+    position: absolute;
+    left: 7.78%;
+    right: 65.83%;
+    top: 15.84%;
+    bottom: 68.49%;
+    height: 381px;
+    width: 380px;
+    left: 112px;
+    top: 385px;
+    border-radius: 0px;
+}
+
+.image2 {
+    position: absolute;
+    left: 7.78%;
+    right: 65.83%;
+    top: 38.91%;
+    bottom: 45.25%;
+    height: 385px;
+    width: 380px;
+    left: 112px;
+    top: 946px;
+    border-radius: 0px;
+}
+
+/* começar agora */
+.btn_comeca {
+    position: absolute;
+    width: 216px;
+    height: 25px;
+    left: 554px;
+    top: 654px;
+    border-radius: 62px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2E948A;
+}
+
+.btn_comeca2 {
+    position: absolute;
+    height: 25px;
+    width: 216px;
+    left: 554px;
+    top: 1212px;
+    border-radius: 62px;
+
+    background: #2E948A;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22.98px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn_comeca3 {
+    position: absolute;
+    height: 25px;
+    width: 233px;
+    left: 570px;
+    top: 1802px;
+    border-radius: 62px;
+
+    background: #2E948A;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22.98px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.titulo_investimento {
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 406px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.texto_investimento {
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 483px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.titulo_poupando_rendendo {
+    position: absolute;
+    width: 373px;
+    height: 40px;
+    left: 545px;
+    top: 947px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40.22px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.texto_poupando_redendo {
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 1024px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20.68px;
+    color: #000000;
+}
+
+.titulo_independencia_financeira {
+    position: absolute;
+    width: 425px;
+    height: 40px;
+    left: 534px;
+    top: 1581px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40.22px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.texto_independencia_financeira {
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 560px;
+    top: 1658px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+/* linhas */
+.linha1 {
+    position: absolute;
+    width: 1244px;
+    height: 5px;
+    left: 82px;
+    top: 834px;
+    background: #C4C4C4;
+}
+
+/* linhas */
+.linha2 {
+    position: absolute;
+    width: 1244px;
+    height: 5px;
+    left: 98px;
+    top: 1424px;
+    background: #C4C4C4;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width:700px) {}
+@media screen and (min-width:1000px) {}
