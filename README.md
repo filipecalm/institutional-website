@@ -10,7 +10,7 @@ Construindo um site do zero
   </a>
 </div>
 
-<br><br>
+<br>
 Objetivos de Aprendizagem:
 
 Vivencar a experiência de construir um site institucional do zero e colocar em prática tudo que aprendemos sobre HTML e CSS.
