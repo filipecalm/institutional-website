@@ -8,9 +8,9 @@ Construindo um site do zero
   <a href="https://filipecalm.github.io/desafio-gama-dindin/">
     <img align="center" alt="github" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <br>
 </div>
 
+<br><br>
 Objetivos de Aprendizagem:
 
 Vivencar a experiência de construir um site institucional do zero e colocar em prática tudo que aprendemos sobre HTML e CSS.
