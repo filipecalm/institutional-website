@@ -8,6 +8,7 @@ Construindo um site do zero
   <a href="https://filipecalm.github.io/desafio-gama-dindin/">
     <img align="center" alt="github" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+  <br>
 </div>
 
 Objetivos de Aprendizagem:
