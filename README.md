@@ -24,9 +24,12 @@ Objetivos de Aprendizagem:
 
 Vivencar a experiência de construir um site institucional do zero e colocar em prática tudo que aprendemos sobre HTML e CSS.
 
-● Refletir sobre boas práticas em HTML e CSS.
-
-● Desenvolver páginas responsivas que se adaptam para diferentes tamanho de dispositivos.
+<p>
+  <em>
+    <li> Refletir sobre boas práticas em HTML e CSS.<br>
+    <li> Desenvolver páginas responsivas que se adaptam para diferentes tamanho de dispositivos.<br>
+  </em>
+</p>
 
 ### Critérios de Avaliação:
 <p>
