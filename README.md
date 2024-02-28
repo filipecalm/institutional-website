@@ -14,7 +14,7 @@
 ### Github pages:
 
 <div style="display: inline_block">
-  <a href="https://filipecalm.github.io/desafio-gama-dindin/">
+  <a href="https://filipecalm.github.io/institutional-website/">
     <img align="center" alt="github" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </div>
